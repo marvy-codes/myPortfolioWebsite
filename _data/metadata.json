@@ -1,7 +1,7 @@
 {
-  "title": "John Doe",
+  "title": "Olowookere Marvellous",
   "url": "https://myurl.com/",
-  "description": "Photographer and Web Designer",
+  "description": "Software Engineer | Mongodb Express React Node",
   "feed": {
     "subtitle": "I am writing about my experiences as a naval navel-gazer.",
     "filename": "feed.xml",
@@ -9,7 +9,7 @@
     "id": "https://myurl.com/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Olowookere Marvellous",
+    "email": "olowomarve@gmail.com"
   }
 }

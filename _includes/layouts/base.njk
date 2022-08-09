@@ -60,27 +60,24 @@
  
 
     <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
-      <div class="warning">
+      {# <div class="warning">
         <ol>
           <li>Edit the <code>_data/metadata.json</code> with your blog’s information.</li>
           <li>(Optional) Edit <code>.eleventy.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
           <li>Delete this message from <code>_includes/layouts/base.njk</code>.</li>
         </ol>
         <p><em>This is an <a href="https://www.11ty.io/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-      </div>
+      </div> #}
 
       {{ content | safe }}
     </main>
 
       <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    <a href="https://twitter.com/OlowookereMarv2"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://github.com/marvy-codes"><i class="fa fa-github w3-hover-opacity"></i></i></a>
+    <a href="https://www.linkedin.com/in/marvy-codes-6b386b19a/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <p class="w3-small">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   <!-- End footer -->
   </footer>
 
