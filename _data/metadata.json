@@ -3,7 +3,7 @@
   "url": "https://myurl.com/",
   "description": "Software Engineer | Mongodb Express React Node",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "My portfolio website that tells a little about me as a Web developer and my journey.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://myurl.com/"
