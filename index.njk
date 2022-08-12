@@ -17,9 +17,12 @@ eleventyNavigation:
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">About Me...</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>I'm a FullStack  Developer whose whole interest is building interactive, accessible, and responsive websites. My project section contains some beautiful websites I've built. 
-        I'm currently open to Job opportunities where I can contribute to your business and make your users happy. Contact me if you're ready in working with me. I can pick easily pick up
-        frameworks and related code-base and learn them on the go</p>
+    <p>
+      I'm a Full-Stack Web Developer whose major interest is building interactive, accessible, secure, fast and responsive websites. My project section contains some web application
+      that I've built. Each of the projects was built with the aim of learning a specific skillset. During the period of learning and also Programming for over 3 years, I've learnt 
+      alot of useful skillset, tools and mindset for real life applications. I can easily pick up frameworks, libraries and packages, learn them progressively to adapt to any company
+      requirements. I'm currently open to Jobs and positions where I can contribute to your businesses or ideas. Kindly contact me if you want to work with me.     
+    </p>
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
     <p class="w3-wide">Html, CSS, JavaScript</p>
     <div class="w3-white">
@@ -39,28 +42,17 @@ eleventyNavigation:
     <button class="w3-button w3-light-grey w3-padding-large w3-section" onclick="window.open('{{ 'files/resume.pdf' | url}}')">
       <i class="fa fa-download"></i> Download Resume
     </button>
-    
-    <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">My Experience</h3>  
-    <img src="{{ '/img/w3images/dotlogo.png' | url}}" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Frontend Dev:</span>DotCircleLabs</p>
-    <p>Have 1.6 years Experience working with DotCircleLabs on the several projects, UI designs and code-base.</p><br>
-    
-    <img src="{{ '/img/w3images/master.svg' | url }}" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Web Dev:</span>MasterNeoModerationAgency.</p>
-    <p>Contract Developer for MasterNeo Moderation Agency, worked on their <a href="https://masterneo.org/" target="_blank">platform</a> design which beautifully shows what the company has to offer as an agency.</p>
-  <!-- End About Section -->
   </div>
 
 
 <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="projects">
+  <div class="w3-padding-16 w3-content" id="projects">
     <h2 class="w3-text-light-grey">My Projects</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
-    
+{#     
 <style>
 .row {
   display: flex;
@@ -87,20 +79,16 @@ eleventyNavigation:
   }
   {% endraw %}
 }
-</style>
+</style> #}
 
 <!-- List Of Projects Built Here-->
-<div class="row"> 
-  <div class="column">
-   {% for post in collections.photo | head(-8) %}
-   {% if loop.index==4 %}
+  <div class="row"> 
+    <div class="column">
       </div><div class="column">
-      {% endif %}
-  
-    <a href="{{ post.url | url}}"><img src = "{{ post.data.image | url }}" style="width:100%;margin-bottom:0px" > </a>
-  
-  {% endfor %}
-  </div>
+    </div>
+    <div class="column">
+      </div><div class="column">
+    </div>
   </div>
 
 
