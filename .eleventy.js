@@ -29,12 +29,10 @@ module.exports = function(eleventyConfig) {
     if( n < 0 ) {
       return array.slice(n);
     }
-
     return array.slice(0, n);
   });
 
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
-
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("files");
   eleventyConfig.addPassthroughCopy("css");
